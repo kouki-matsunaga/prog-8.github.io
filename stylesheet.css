@@ -100,7 +100,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: -25px !important;
 }
 
 .header-right a {
@@ -199,7 +199,7 @@ footer {
 .menu-icon {
   color: white;
   float: right;
-  font-size: 25px;
+  font-size: 25px !important;
   padding: 21px 0;
   display: none !important;
 }
