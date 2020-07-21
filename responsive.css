@@ -173,13 +173,13 @@
     opacity: 1;
   }
 
-  .menu-btn:hover .bar {
+  /* .menu-btn:hover .bar {
     background: rgb(250, 226, 90);
   }
 
   .menu-btn:hover .menu-btn__text {
     color: rgb(248, 228, 44);
-  }
+  } */
 
   .close-menu {
     position: fixed;
@@ -228,6 +228,7 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+    background: rgb(246, 226, 110);
   }
 
   .check:checked ~ .menu-btn .bar.middle {
@@ -240,6 +241,7 @@
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    background: rgb(246, 226, 110);
   }
 
   .check:checked ~ .close-menu {
