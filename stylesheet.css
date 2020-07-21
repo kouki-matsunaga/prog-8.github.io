@@ -1,5 +1,7 @@
 /* -------------------- CSSは一番下から書き始めてください！ -------------------- */
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -13,9 +15,7 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
-}
+
 
 .container {
   width: 100%;
@@ -197,10 +197,20 @@ footer {
 }
 
 /* -------------------- CSSはここから追加していきましょう！ -------------------- */
-.menu-icon {
+/* .menu-icon {
   color: white;
   float: right;
   font-size: 25px !important;
   padding: 21px 0;
   display: none !important;
+} */
+
+.clear {
+  clear: both;
+}
+
+@media all and (min-width: 670.01px) {
+  .check,menu-btn,.bar,.bar.top,.bar.middle,.bar.bottom,.menu-btn__text,.close-menu,.drawer-menu {
+    display: none;
+  }
 }
